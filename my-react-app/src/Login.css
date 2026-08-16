@@ -1,0 +1,45 @@
+#outLoginDiv{
+    display:flex;
+    position: absolute;
+    top:25%;
+    left:25%;
+    width:50%;
+    height:50%;
+    background-color: rgba(rgb(233, 98, 2));
+}
+#usernameLabel{
+    left:45%;
+    position:relative;
+    height:3vh;
+    width:10vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#usernameInput{
+    left:45%;
+    position:relative;
+    height:3vh;
+    width:10vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#passwordLabel{
+    left:45%;
+    position:relative;
+    height:3vh;
+    width:10vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#passwordInput{
+    left:45%;
+    position:relative;
+    height:3vh;
+    width:10vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
