@@ -9,13 +9,13 @@ import './App.css'
 function App() {
   const[isLoggedIn,setIsLoggedIn]=useState(false);
   const[username,setUsername]=useState("");
-  const[CurrentPage,setCurrentPage]=useState("dashboard");
+  const[currentPage,setCurrentPage]=useState("dashboard");
   return (
     <div className="App">
       {isLoggedIn?null:<Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} username={username} setUsername={setUsername}></Login>}
-      {(isLoggedIn&&CurrentPage==="profile")?<Profile username={username} setUsername={setUsername}></Profile>:null}
-      {(isLoggedIn&&CurrentPage==="dashboard")?<Dashboard></Dashboard>:null}
-      {(isLoggedIn&&CurrentPage==="settings")?<Settings></Settings>:null}
+      {(isLoggedIn&&currentPage==="profile")?<Profile username={username} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} setUsername={setUsername} currentPage={currentPage} setCurrentPage={setCurrentPage}></Profile>:null}
+      {(isLoggedIn&&currentPage==="dashboard")?<Dashboard></Dashboard>:null}
+      {(isLoggedIn&&currentPage==="settings")?<Settings></Settings>:null}
     </div>
   )
 }

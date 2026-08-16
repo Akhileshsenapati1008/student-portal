@@ -13,13 +13,24 @@ const mapUsernameToProfile = (username) => {
     };
     return profiles[username] || null;
 }
-export function Profile({username, isLoggedIn, setIsLoggedIn, setUsername}){
+export function Profile({username, isLoggedIn, setIsLoggedIn, setUsername,currentPage, setCurrentPage}){
 return(
     <div className="profile">
         <h1>Welcome to your profile</h1>
         <p>name:{mapUsernameToProfile(username)?.name || "User"}</p>
         <p>age:{mapUsernameToProfile(username)?.age || "N/A"}</p>
         <p>email:{mapUsernameToProfile(username)?.email || "N/A"}</p>
+        <button onClick={()=>{
+            setCurrentPage("dashboard");
+        }}>Dashboard</button>
+        <button onClick={()=>{
+            setCurrentPage("settings");
+        }}>Settings</button>
+        <button onClick={()=>{
+            setCurrentPage("dashboard");
+            setUsername("");
+            setIsLoggedIn(false);
+        }}>logout</button>
     </div>
 )
 }
