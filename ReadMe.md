@@ -31,6 +31,7 @@ do cd my-react-app and then npm run dev to run in your local machine</p>
 
 |Username|courses Taken|grade|Attendance|
 |ram     |SSD,DSAPS,OS,MCS|A,B,C,A|90,80,70,95|
+|krishna     |SSD,DSAPS,OS,MCS|B,A,B,C|90,80,70,95|
 
 # React + Vite
 
