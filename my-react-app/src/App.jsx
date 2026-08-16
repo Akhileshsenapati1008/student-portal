@@ -15,7 +15,7 @@ function App() {
       {isLoggedIn?null:<Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} username={username} setUsername={setUsername}></Login>}
       {(isLoggedIn&&currentPage==="profile")?<Profile username={username} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} setUsername={setUsername} currentPage={currentPage} setCurrentPage={setCurrentPage}></Profile>:null}
       {(isLoggedIn&&currentPage==="dashboard")?<Dashboard username={username} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} setUsername={setUsername} currentPage={currentPage} setCurrentPage={setCurrentPage}></Dashboard>:null}
-      {(isLoggedIn&&currentPage==="settings")?<Settings></Settings>:null}
+      {(isLoggedIn&&currentPage==="settings")?<Settings isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} username={username} setUsername={setUsername} currentPage={currentPage} setCurrentPage={setCurrentPage}></Settings>:null}
     </div>
   )
 }
