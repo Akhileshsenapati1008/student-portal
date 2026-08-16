@@ -27,6 +27,11 @@ do cd my-react-app and then npm run dev to run in your local machine</p>
 |kurma   |08      |
 |narshimha|09     |
 
+<p>Next hardcoded values for dashboard</p>
+
+|Username|courses Taken|grade|Attendance|
+|ram     |SSD,DSAPS,OS,MCS|A,B,C,A|90,80,70,95|
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
