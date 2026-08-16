@@ -24,6 +24,7 @@ do cd my-react-app and then npm run dev to run in your local machine</p>
 |budh    |05      |
 |parsuram|06      |
 |matsya  |07      |
+|kurma   |08      |
 
 # React + Vite
 
