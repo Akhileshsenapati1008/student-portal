@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {isLoggedIn?null:<Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} username={username} setUsername={setUsername}></Login>}
-      {(isLoggedIn&&CurrentPage==="profile")?<Profile></Profile>:null}
+      {(isLoggedIn&&CurrentPage==="profile")?<Profile username={username} setUsername={setUsername}></Profile>:null}
       {(isLoggedIn&&CurrentPage==="dashboard")?<Dashboard></Dashboard>:null}
       {(isLoggedIn&&CurrentPage==="settings")?<Settings></Settings>:null}
     </div>
