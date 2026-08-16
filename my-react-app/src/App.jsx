@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import {Login} from './Login'
+import {Profile} from './Profile'
 import './Login.css'
+import './Profile.css'
 import './App.css'
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
   return (
     <div className="App">
       {isLoggedIn?null:<Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} username={username} setUsername={setUsername}></Login>}
+      {isLoggedIn?<Profile></Profile>:null}
     </div>
   )
 }
