@@ -4,9 +4,11 @@ import './Login.css'
 import './App.css'
 
 function App() {
+  const[isLoggedIn,setIsLoggedIn]=useState(false);
+  const[username,setUsername]=useState("");
   return (
     <div className="App">
-      <Login />
+      {isLoggedIn?null:<Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} username={username} setUsername={setUsername}></Login>}
     </div>
   )
 }
