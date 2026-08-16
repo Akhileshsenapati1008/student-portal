@@ -14,9 +14,11 @@ do cd my-react-app and then npm run dev to run in your local machine</p>
 <p> Currently due to lack of time no db is connected and values are hard coded will be changed in upcomming time</p>
 
 <p>For the username password hard coded values</p>
+
 |Username|Password|
 |--------|--------|
 |Ram     |01      |
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
