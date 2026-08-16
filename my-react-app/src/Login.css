@@ -6,8 +6,11 @@
     width:50%;
     height:50%;
     background-color: rgba(rgb(233, 98, 2));
+    border: 1px solid var(--border);
+    border-color:brown;
 }
 #usernameLabel{
+    color:red;
     left:45%;
     position:relative;
     height:3vh;
@@ -26,6 +29,7 @@
     align-items:center;
 }
 #passwordLabel{
+    color:red;
     left:45%;
     position:relative;
     height:3vh;
