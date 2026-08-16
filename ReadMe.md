@@ -36,6 +36,15 @@ do cd my-react-app and then npm run dev to run in your local machine</p>
 |vaman|SSD,DSAPS,OS,MCS|C,B,A,B|70,85,90,75|
 |varah|SSD,DSAPS,OS,MCS|A,C,B,A|95,70,80,90|
 |budh|SSD,DSAPS,OS,MCS|B,A,C,B|80,95,70,85|
+|parshuram|SSD,DSAPS,OS,MCS|C,B,A,C|75,80,95,70|
+|matshya|SSD,DSAPS,OS,MCS|A,B,C,A|90,85,80,95|
+|kurma|SSD,DSAPS,OS,MCS|B,C,A,B|85,70,90,80|
+|narsimha|SSD,DSAPS,OS,MCS|C,A,B,C|70,95,85,75|
+
+A-100
+B-99.5
+C-99
+D- < 99
 
 # React + Vite
 
