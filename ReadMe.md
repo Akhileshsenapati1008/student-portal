@@ -18,6 +18,7 @@ do cd my-react-app and then npm run dev to run in your local machine</p>
 |Username|Password|
 |--------|--------|
 |Ram     |01      |
+|krishna |02      |
 
 # React + Vite
 
