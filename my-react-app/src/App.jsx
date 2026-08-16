@@ -14,6 +14,7 @@ function App() {
       {isLoggedIn?null:<Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} username={username} setUsername={setUsername}></Login>}
       {isLoggedIn?<Profile></Profile>:null}
       {isLoggedIn?<Dashboard></Dashboard>:null}
+      {isLoggedIn?<Settings></Settings>:null}
     </div>
   )
 }
